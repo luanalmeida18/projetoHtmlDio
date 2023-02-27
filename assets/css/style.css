@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+
+figure {
+    text-align: center;
+}
+
+table {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table td, th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black ;
+}
+
+aside {
+    background-color: #f9f9fb;
+    padding: 5px;
+    height: 100%;
+}
+
+aside figure {
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px;
+    font-size: 12px;
+} 
+
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px; 
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+#outros {
+    text-align: center;
+}
+
+#outros a {
+    margin-left: 10px;
+}
+
+#fixed {
+    position:relative;
+    background-color: #f9f9fb;
+    background-attachment: fixed;
+}
+
+#search {
+    text-align: center;
+}
+
+#logoMenu {
+    width: 30%;
+    margin: auto;
+}
